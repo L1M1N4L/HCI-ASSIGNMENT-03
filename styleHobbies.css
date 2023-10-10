@@ -1,0 +1,186 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url('Default_Create_a_striking_visual_composition_with_a_predominan_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+/* Styles for the header with Your Name */
+header h1 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* Styles for Hobbies Section */
+.hobbies {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 100px;
+  max-width: 600px;
+  max-height: 300px;
+}
+
+.hobbies h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hobbies ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.hobbies li {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Styles for Favorite Books Section */
+.favorite-books {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.favorite-books h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.favorite-books ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.favorite-books li {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Styles for Travel Experiences Section */
+.travel-experiences {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.travel-experiences h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.travel-experiences p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.travel-experiences ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.travel-experiences li {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+/* Styles for Images for Hobbies Section */
+.hobby-images {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-width: 600px;
+}
+
+.hobby-images h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hobby-images img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.back-button {
+    background-color: #C06B3E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add vertical margin */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: #C06B3E;
+}
+.back-button {
+    background-color: #C06B3E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add vertical margin */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: #C06B3E;
+}

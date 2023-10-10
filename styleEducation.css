@@ -1,0 +1,134 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8); /* Change background color and opacity */
+  color: white; /* Text color */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url('Default_Create_a_striking_visual_composition_with_a_predominan_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.education {
+  max-width: 800px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.education h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.education ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+.education li {
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.education p {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.education-link {
+  background-color: white;
+  color: #C06B3E;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.education-link:hover {
+  background-color: #C06B3E;
+  color: white;
+}
+.back-button {
+    background-color: #C06B3E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add vertical margin */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: #C06B3E;
+}
+
+.textedu{
+    padding-bottom: 6px;
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 600px) {
+  .education {
+    padding: 10px;
+  }
+
+  .education h2 {
+    font-size: 20px;
+  }
+
+  .education h3 {
+    font-size: 18px;
+  }
+
+  .education p {
+    font-size: 14px;
+  }
+
+  .education-link {
+    padding: 6px 12px;
+  }
+}

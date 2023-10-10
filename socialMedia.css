@@ -1,0 +1,141 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-image: url('Default_Create_a_striking_visual_composition_with_a_predominan_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-blend-mode: multiply;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.social-item {
+  flex: 1;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.social-item i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.social-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.social-item p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.social-item a {
+  background-color: white;
+  color: #C06B3E;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-item a:hover {
+  background-color: #C06B3E;
+  color: white;
+}
+.textsocial{
+    padding-bottom: 5%;
+}
+.back-button {
+    background-color: #C06B3E;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add vertical margin */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: white;
+    color: #C06B3E;
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 600px) {
+  .social-links {
+    flex-direction: column;
+  }
+
+  .social-item {
+    padding: 20px 0;
+  }
+
+  .social-item i {
+    font-size: 1.5rem;
+  }
+
+  .social-item h3 {
+    font-size: 1.2rem;
+  }
+
+  .social-item p {
+    font-size: 0.9rem;
+  }
+
+  .social-item a {
+    padding: 8px 16px;
+  }
+  .container {
+    padding-top: 30px;
+  }
+  .JonathanLeewin{
+    padding-bottom: 20px;
+    font-size: 130%;
+  }
+
+}

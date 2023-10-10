@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - www.codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCI Assignment 3 Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts Links For Icon -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a class="logo" href="HomePage.html">Jonathan<span>Leewin</span></a>
+        <ul class="menu-links">
+          <span id="close-menu-btn" class="material-symbols-outlined">close</span>
+          <li><a href="HomePage.html">Home</a></li>
+          <li><a href="SocialMedia.html">Social Media</a></li>
+          <li><a href="Education.html">Education</a></li>
+          <li><a href="Skills.html">Skills</a></li>
+          <li><a href="Hobbies.html">Hobbies</a></li>
+        </ul>
+        <span id="hamburger-btn" class="material-symbols-outlined">menu</span>
+      </nav>
+    </header>
+
+    <section class="hero-section">
+      <div class="content">
+        <h2>"Exploring the World Through My Lens"</h2>
+        <p>
+            Welcome to my portfolio, where the beauty of Japanese language dances with the world of computers. It's a playful fusion of linguistic artistry and tech-savvy creativity, reflecting my love for all things Japan and technology.
+        </p>
+        <a href="HomePage.html" target="_blank">
+            <button>Explore Now</button>
+        </a>
+        
+      </div>
+    </section>
+
+    <script>
+      const header = document.querySelector("header");
+      const hamburgerBtn = document.querySelector("#hamburger-btn");
+      const closeMenuBtn = document.querySelector("#close-menu-btn");
+
+      // Toggle mobile menu on hamburger button click
+      hamburgerBtn.addEventListener("click", () => header.classList.toggle("show-mobile-menu"));
+
+      // Close mobile menu on close button click
+      closeMenuBtn.addEventListener("click", () => hamburgerBtn.click());
+    </script>
+    
+  </body>
+</html>

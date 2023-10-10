@@ -1,0 +1,132 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-image: url('Default_Create_a_striking_visual_composition_with_a_predominan_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: grey;
+    background-blend-mode: multiply;
+}
+
+.home-bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.profile-pic {
+    flex: 1;
+    padding: 20px;
+}
+
+.profile-pic img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 90px;
+    height: 160px;
+}
+
+.info {
+    flex: 1;
+    max-width: 100%;
+}
+
+/* Style the "Back to Main Page" button */
+/* ... (your existing styles) ... */
+
+/* Style the "Back to Main Page" button */
+.back-button {
+    background-color: white;
+    color: #C06B3E;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: block;
+    margin: 20px auto; /* Center the button horizontally and add vertical margin */
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+    background-color: #C06B3E;
+    color: white;
+}
+
+
+/* Make the table responsive */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+
+
+/* Add media query for smaller screens */
+@media (max-width: 600px) {
+ 
+    .home-bio {
+        flex-direction: column;
+    }
+    
+    .profile-pic {
+        padding: 20px 0;
+        margin-top:8% ;
+    }
+    
+    .profile-pic img {
+        width: 70px;
+        height: 120px;
+    }
+    
+    .info {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,155 @@
+/* Importing Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.skills table, .experience table {
+    max-width: 1000px; /* Set the maximum width for both tables */
+    width: 100%;
+    margin: 0 auto; /* Center the tables horizontally */
+    border-collapse: collapse;
+    text-align: left; /* Align table text to the left */
+  }
+  
+  .skills td, .experience td {
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .skills td:first-child, .experience td:first-child {
+    font-weight: bold;
+  }
+  
+  .skills td label, .experience td label {
+    display: block;
+  }
+  
+  .skills input[type="checkbox"], .experience input[type="checkbox"] {
+    margin-right: 10px;
+  }
+
+.container {
+  background-image: url('Default_Create_a_striking_visual_composition_with_a_predominan_1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  background-color: grey;
+  background-blend-mode: multiply;
+  padding-top: 100px; /* Adjust this value to ensure content doesn't overlap with the header */
+}
+
+.JonathanLeewin {
+  padding-bottom: 20px;
+  font-size: 2rem; /* Adjust the font size as needed */
+}
+
+.skills, .experience {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.skills h2, .experience h2 {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+}
+
+.skills table, .experience table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left; /* Align table text to the left */
+}
+
+.skills td, .experience td {
+  padding: 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 50%; /* Equal width for all table cells */
+}
+
+.skills td:first-child, .experience td:first-child {
+  font-weight: bold;
+}
+
+.skills td label, .experience td label {
+  display: block;
+}
+
+.skills input[type="checkbox"], .experience input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.back-button {
+  background-color: #C06B3E;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto; /* Center the button horizontally and add vertical margin */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.back-button:hover {
+  background-color: white;
+  color: #C06B3E;
+}
+
+/* Add a media query for smaller screens */
+@media (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+
+  .JonathanLeewin {
+    font-size: 1.5rem; /* Adjust the font size as needed */
+  }
+
+  .skills, .experience {
+    padding: 10px;
+  }
+
+  .skills h2, .experience h2 {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+
+  .skills td, .experience td {
+    padding: 6px;
+  }
+
+  .back-button {
+    padding: 8px 16px;
+  }
+
+  .container {
+    padding-top: 20px;
+  }
+}
